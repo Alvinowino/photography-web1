@@ -1,0 +1,9 @@
+#services{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0 12px;
+}
+.img2{
+    display: flex;
+}

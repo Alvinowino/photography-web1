@@ -1,0 +1,42 @@
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    border-radius:30px ;
+}
+.contact2{
+    display: flex;
+    gap:2%;
+    justify-content:center;
+    align-items: center;
+    
+}
+.contact2 h5{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.footer .socialmedia{
+    text-align: center;
+    padding-bottom: 25px;
+    color: azure;
+}
+.footer .socialmedia a{
+  font-size: 24px;
+  color: azure;
+  border: 2px solid orangered;
+  width: 48px;
+  height: 48px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center; 
+  border-radius: 50px;
+  margin:0 8px;
+  box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
+  transition: 0.3s ease; 
+}
+.footer .socialmedia a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: blue;
+    border: 2px solid aqua;
+}

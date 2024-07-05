@@ -1,0 +1,49 @@
+#contact{
+    min-height:100vh;
+    padding: 2px;
+    text-align: center;
+
+}
+.container{
+    max-width: 700px;
+    margin: 0auto;
+
+}
+.Contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Contact-form{
+    justify-content: center;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color:aquamarine;
+    color: black;
+}
+input:focus, textarea{
+    outline: aqua;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding: 12px 12px;
+    background: rgb(9, 46, 46);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(16, 59, 59);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.Contact2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}

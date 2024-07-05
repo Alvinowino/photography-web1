@@ -1,0 +1,18 @@
+#gallery{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0 12px;
+
+}
+#gallery h1 {
+    text-align: center;
+}
+.img1 img {
+    width: 300px;
+    height: auto;
+}
+.head{
+    text-align: center;
+
+}
